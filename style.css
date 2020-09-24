@@ -1,0 +1,462 @@
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.header {
+	background-color: #87509c;
+
+	background-image: url('images/header.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.blr {
+	width: 100%;
+	height: 100%;
+	background-color:  rgba(0, 0, 0, .5);
+	padding-bottom: 160px;
+}
+
+.mid {
+	width: 80%;
+	margin: auto;
+}
+
+.header-top {
+	overflow: hidden;
+	padding-top: 30px;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.menu {
+	width: 70%;
+	float: left;
+}
+
+.menu  ul{
+	text-align: right;
+}
+
+.menu  ul li{
+	display: inline-block;
+}
+
+.menu  ul li a{
+	color: #FFF;
+	padding: 10px 20px;
+	display: block;
+	text-transform: uppercase;
+}
+
+.header-bottom {
+	margin-top: 200px;
+	text-align: center;
+}
+
+.header-bottom  h2{
+	font-size: 33px;
+	color: #FFF;
+	width: 70%;
+	margin: auto;
+}
+
+.header-bottom  a{
+	display: inline-block;
+	padding: 20px 70px;
+	background-color: #eb7d4b;
+	color: #FFF;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 3px;
+	border-bottom: 4px solid  #c86a40;
+}
+
+/* services section style start */
+.service {
+	background-color: #17c2a4;
+	padding: 100px 0px;
+}
+
+.service h2{
+	text-align: center;
+	font-size: 40px;
+	color: #FFF;
+}
+
+.service hr{
+	width: 60px;
+	margin:15px  auto;
+	border-bottom: none;
+	border-top: 4px solid #14a58c;
+
+}
+
+.service p {
+	text-align: center;
+	color: #FFF;
+	width: 60%;
+	margin: auto;
+}
+
+.service-area {
+	margin-top: 70px;
+}
+
+.service-box {
+	width: 23%;
+	display: inline-block;
+}
+
+.service-box img{
+	display: block; 
+	margin: auto;
+}
+
+.service-box  h3{
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	margin: 20px 0px 15px 0px;
+}
+
+.service-box  p{
+	width: 80%;
+}
+
+/*====== Our Team Style =======*/
+
+.our-team {
+	background-color: #e7f1f8;
+	padding: 100px 0px;
+}
+
+.our-team h2{
+	font-size: 40px;
+	text-align: center;
+	color: #3c4761;
+}
+
+.our-team hr{
+	width: 60px;
+	margin: auto; 
+	border-top: none;
+	border-bottom: 4px solid #c8d9e5;
+	margin: 15px auto;
+}
+
+.our-team p{
+	text-align: center; 
+	color: #3c4761;
+}
+
+.team-area {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.team-box {
+	width: 23%;
+	display: inline-block;
+}
+
+.team-box  img{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+}
+
+.team-box  h3{
+	text-align: center; 
+	color: #27283d;
+	text-transform: uppercase;
+	margin: 20px 0px 6px 0px;
+}
+
+.team-box h4{
+	color: #30bae7;
+	font-size: 14px;
+	margin-bottom: 16px;
+}
+
+.team-box p{
+	width: 75%;
+	margin: auto;
+	color: #3c4761;
+	font-size: 14px;
+}
+
+.team-box .social {
+	margin-top: 10px;
+}
+
+
+.team-box .social ul {
+	text-align: center;
+}
+.team-box .social ul li {
+	display: inline-block;
+}
+
+.team-box .social ul li a{
+	width: 20px;
+	height: 20px;
+	display: block;
+	background-color: #bdd1df;
+	padding: 10px;
+	color: #FFF;
+	border-radius: 50%;
+	transition: .3s;
+}
+
+.team-box .social ul li a:hover {
+	background-color: #30bae7;
+}
+
+/* ========== Skills style ========= */
+.skills {
+	padding: 100px 0px;
+	background-color: #fff;
+}
+
+.skills h2{
+	text-align: center; 
+	font-size: 40px;
+	font-weight: 900;
+
+}
+
+.skills hr{
+	border-top: none;
+	border-bottom: 4px solid #dfe8ed;
+	width: 60px;
+	margin: 20px auto;
+}
+
+.skills p{
+	text-align: center; 
+	width: 60%;
+	margin: auto;
+	color: #3c4761;
+}
+
+
+.skills-area {
+	margin-top: 70px;
+	text-align: center;
+}
+
+.skill-box {
+	width: 23%;
+	display: inline-block;
+}
+
+.skill-box  h3{
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: #3c4761;
+}
+
+
+/*========= Portfolio style ===========*/
+
+.portfolio {
+	background-color: #ffdd99;
+	padding: 100px 0px;
+}
+
+.portfolio h2{
+	text-align: center; 
+	font-size: 40px;
+	color: #393939;
+}
+
+.portfolio hr{
+	width: 60px;
+	border-top: none;
+	border-bottom: 4px solid #e5c37f;
+	margin: 15px auto;
+}
+
+.portfolio p{
+	text-align: center; 
+	width: 60%;
+	margin: auto;
+	color: #393939;
+}
+
+.port-menu {
+	margin: 50px 0px;
+}
+
+.port-menu  ul{
+	text-align: center;
+}
+
+.port-menu  ul li{
+	display: inline-block;
+}
+
+.port-menu  ul li a{
+	display: block; 
+	padding: 10px 20px;
+	background-color: #ebc985;
+	color: #393939;
+	text-transform: uppercase;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+.port-menu  ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.port-menu  ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.port-area {
+	text-align: center;
+}
+
+.port-box {
+	width: 48%;
+	display: inline-block;
+	margin-bottom: 20px; 
+
+}
+
+.port-box img{
+	width: 80%;
+	margin: auto; 
+	display: block;
+}
+
+.port-box h2{
+	font-size: 16px;
+	color: #393939;
+	text-align: center;
+	margin-top: 10px;
+	text-transform: uppercase; 
+	font-weight: normal;
+}
+
+/*========= People style ========*/
+
+.about {
+	padding: 100px 0px;
+	background-color: #d74680;
+}
+
+.about  h2{
+	font-size: 40px;
+	text-align: center; 
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+.about hr{
+	width: 60px;
+	margin: 15px auto; 
+	border-top: none;
+	border-bottom: 4px solid #b73c6d;
+
+}
+
+.about p{
+	text-align: center; 
+	color: #FFF;
+	font-size: 14px;
+}
+
+.people-area {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.people-box {
+	width: 48%;
+	display: inline-block;
+	margin-bottom: 70px;
+	
+}
+
+
+.people-box:after {
+	content:'';
+	display: block; 
+	clear: both;
+}
+
+
+
+
+.people-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+}
+
+.people-image  img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+
+}
+
+.people-content {
+	width: 60%;
+	float: left;
+	margin-left: 20px;
+
+}
+
+.people-content p{
+	font-size: 17px;
+	color: #FFF;
+	text-align: left;
+	font-style:italic;
+}
+
+.people-content p:before {
+	content:'"';
+}
+
+.people-content p:after {
+	content:'"';
+}
+
+.people-content h3{
+	text-align: left; 
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #FFF;
+	margin: 10px 0px 0px 0px;
+}
+
+.people-content  h4{
+	text-align: left; 
+	color: #ffdd99;
+
+
+}
+.fotter {
+    background-color: darkgrey;
+}
+.fotter-bg{
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    font-size: 17px;
+}
