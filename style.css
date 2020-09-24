@@ -2,6 +2,11 @@
 	font-family: 'Titillium Web', sans-serif;
 }
 
+a{
+text-decoration: none;
+
+}
+
 .header {
 	background-color: #87509c;
 
@@ -76,6 +81,7 @@
 	font-weight: bold;
 	border-radius: 3px;
 	border-bottom: 4px solid  #c86a40;
+	
 }
 
 /* services section style start */
